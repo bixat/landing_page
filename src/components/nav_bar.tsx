@@ -23,7 +23,8 @@ type NavBarItemType = {
 }
 
 function NavBarItem({ title }: NavBarItemType) {
-    return <li><a className=' text-slate-50' href="#{title}">{title}</a></li>;
+    return <li><a className='text-slate-50' href={'#' + title.toLowerCase()}>{title}</a></li>;
 }
+
 
 export default NavBar;
