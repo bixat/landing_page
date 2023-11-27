@@ -2,6 +2,7 @@ import featImage from '../assets/features/features.svg';
 import feature1 from '../assets/features/feature-1.svg';
 import feature2 from '../assets/features/feature-2.svg';
 import feature3 from '../assets/features/feature-3.svg';
+import SectionTitle from './section_title';
 
 const features: FeaturesType[] = [
     {
@@ -27,9 +28,11 @@ function Features() {
     )
     return <section className="bg-background py-[100px]">
         <div className="flex flex-col items-center">
-            <h1 className="text-[52px] text-white py-3">Features</h1>
-            <p className="text-[20px] text-white w-[602px] text-center font-extralight">Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
-            <div className='flex flex-col lg:flex-row py-8 items-center justify-center max-w-5xl'>
+            <SectionTitle
+            title='Features'
+            subtitle='Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.'
+            />
+            <div className='flex flex-col lg:flex-row py-8 px-4 items-center justify-center max-w-6xl'>
                 <img src={featImage} alt="" />
                 <ul>
                     {listOfFeatures}
