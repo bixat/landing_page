@@ -29,7 +29,7 @@ function Features() {
         <div className="flex flex-col items-center">
             <h1 className="text-[52px] text-white py-3">Features</h1>
             <p className="text-[20px] text-white w-[602px] text-center font-extralight">Most calendars are designed for teams. Slate is designed for freelancers who want a simple way to plan their schedule.</p>
-            <div className='flex flex-row py-8 items-center justify-center max-w-5xl'>
+            <div className='flex flex-col lg:flex-row py-8 items-center justify-center max-w-5xl'>
                 <img src={featImage} alt="" />
                 <ul>
                     {listOfFeatures}
