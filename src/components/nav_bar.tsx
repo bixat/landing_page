@@ -5,7 +5,7 @@ function NavBar() {
     const items = ['Home', 'Product', 'About', 'Contact'].map(item => <NavBarItem title={item} />);
     return (
         <div className='bg-background flex justify-center'>
-            <div className='flex flex-row justify-evenly items-center h-[119px] w-[1597px]'>
+            <div className='flex flex-row justify-evenly items-center h-[119px] w-full'>
                 <div>
                     <img src={logo} alt="" />
                 </div>
