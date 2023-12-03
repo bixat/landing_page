@@ -1,6 +1,12 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Screen shots
+
+![Screenshot 2023-12-03 at 21 02 38](https://github.com/bixat/landing_page/assets/69054810/01a275a2-834f-4c8a-aec5-df4379f6bc3c)
+![Screenshot 2023-12-03 at 21 02 48](https://github.com/bixat/landing_page/assets/69054810/e60b2895-5e40-4ac1-b3a6-076f2cb7677b)
+![Screenshot 2023-12-03 at 21 02 54](https://github.com/bixat/landing_page/assets/69054810/4090c2a4-d1b8-4575-b110-e851fc686901)
+
 
 ## Available Scripts
 
